@@ -47,7 +47,6 @@
 		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.ttf")format("truetype"),
 		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.svg#Margon 360 W08 Medium")format("svg");
 	}
-	@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
 	/* bricolage-grotesque-latin-wght-normal */
 	@font-face {
 	font-family: 'Bricolage Grotesque Variable';
@@ -68,7 +67,6 @@
 		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.ttf")format("truetype"),
 		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.svg#Lora")format("svg");
 	}
-	@import url(https://db.onlinewebfonts.com/c/5c803199923a6ed48112bebbb486b3e0?family=Lora);
 	/*Lingistics Pro Font  */
 	@font-face {
 		font-family: "Linguistics Pro";
@@ -79,7 +77,6 @@
 		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.ttf")format("truetype"),
 		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.svg#Linguistics Pro")format("svg");
 	}
-	@import url(https://db.onlinewebfonts.com/c/3612352f3b0606a3a5d675e7279f7c17?family=Linguistics+Pro);
 	/*Commit Mono*/
 	@font-face {
 		font-family: "CommitMono";
@@ -90,7 +87,6 @@
 		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.ttf")format("truetype"),
 		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.svg#CommitMono")format("svg");
 	}
-	@import url(https://db.onlinewebfonts.com/c/3d911dba955015058da8755197d0a58c?family=CommitMono);
 	/*Fira Mono */
 	/* fira-mono-regular - latin */
 	@font-face {
@@ -535,8 +531,6 @@
 		-webkit-font-smoothing: antialiased !important;
 		-moz-osx-font-smoothing: grayscale !important;
 		text-rendering: optimizeLegibility !important;
-
-		&:hover {}
 	}
 
 	li::marker {
@@ -971,7 +965,7 @@
 	div.markdown.prose hr {
 		border-color: var(--bg1-dark) !important;
 }
-}
+
 /* ================================
    ChatGPT Composer — Gruvbox
    ================================ */
@@ -1093,4 +1087,5 @@ html.dark .user-message-bubble-color:hover {
     background: #3c3836 !important;
     background-color: #3c3836 !important;
     background-image: none !important;
+}
 }
